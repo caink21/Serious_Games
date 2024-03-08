@@ -20,7 +20,9 @@ public class CameraManager : MonoBehaviour
     public float minimumPivotAngle = -35;
     public float maximumPivotAngle = 35;
 
-
+    public float maximumlookAngle = 35;
+    public float minimumlookAngle = -35;
+ 
     private void Awake()
     {
         inputManager = FindObjectOfType<InputManager>();
@@ -46,8 +48,9 @@ public class CameraManager : MonoBehaviour
         lookAngle = Mathf.Lerp(lookAngle, lookAngle + (inputManager.cameraInputX * cameraLookSpeed), camLookSmoothTime * Time.deltaTime);
         pivotAngle = Mathf.Lerp(pivotAngle, pivotAngle - (inputManager.cameraInputY * cameraPivotSpeed), camLookSmoothTime * Time.deltaTime);
         pivotAngle = Mathf.Clamp(pivotAngle, minimumPivotAngle, maximumPivotAngle);
+        lookAngle = Mathf.Clamp(lookAngle, minimumlookAngle, maximumlookAngle);
 
-       Vector3 rotation = Vector3.zero;
+        Vector3 rotation = Vector3.zero;
        rotation.y = lookAngle;
        Quaternion targetRotation = Quaternion.Euler(rotation);
        transform.rotation = targetRotation;
