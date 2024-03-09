@@ -16,6 +16,7 @@ public class thirdPersonMovement : MonoBehaviour
     public float sprintSpeed;
     bool sprinting;
     private float trueSpeed;
+    public float rotationSpeed;
 
     //Jumping
     public float JumpHeight;
@@ -67,6 +68,12 @@ public class thirdPersonMovement : MonoBehaviour
 
             Vector3 moveDirection = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
             characterController.Move(direction * trueSpeed * Time.deltaTime);
+
+            if(moveDirection != Vector3.zero)
+            {
+                transform.forward = moveDirection;
+            }
+
             if(sprinting == true)
             {
                 anim.SetFloat("speed", 2);
