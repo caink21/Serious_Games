@@ -1,25 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
-public class thirdPersonMovement : MonoBehaviour
+
+public class movement : MonoBehaviour
 {
-    //Essentials
     public Transform cam;
     CharacterController characterController;
     float turnSmoothTime = .1f;
     float turnSmoothVelocity;
     Animator anim;
 
-    //Movement
-    Vector2 movement;
+    Vector2 movements;
     public float walkSpeed;
     public float sprintSpeed;
     bool sprinting;
-    private float trueSpeed;
-    public float rotationSpeed;
+    float trueSpeed;
 
-    //Jumping
-    public float JumpHeight;
+    public float jumpHeight;
     public float gravity;
     bool isGrounded;
     Vector3 velocity;
@@ -33,16 +31,18 @@ public class thirdPersonMovement : MonoBehaviour
         Cursor.visible = false;
     }
 
-    // Update is called once per frame
     void Update()
     {
         isGrounded = Physics.CheckSphere(transform.position, .1f, 1);
         anim.SetBool("isGrounded", isGrounded);
 
-        if(isGrounded && velocity.y < 0) 
+        if(isGrounded && velocity.y < 0)
         {
             velocity.y = -1;
         }
+
+        movements = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+        Vector3 direction = new Vector3(movements.x, 0, movements.y).normalized;
 
         if(Input.GetKeyDown(KeyCode.LeftShift))
         {
@@ -55,12 +55,7 @@ public class thirdPersonMovement : MonoBehaviour
             sprinting = false;
         }
 
-        anim.transform.localPosition = Vector3.zero;
-        anim.transform.localEulerAngles = Vector3.zero;
-        movement = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-        Vector3 direction = new Vector3(movement.x, 0, movement.y).normalized;
-
-        if (direction.magnitude >= 0.1f) 
+        if(direction.magnitude >= 0.1f) 
         {
             float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + cam.eulerAngles.y;
             float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity, turnSmoothTime);
@@ -68,31 +63,21 @@ public class thirdPersonMovement : MonoBehaviour
 
             Vector3 moveDirection = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
             characterController.Move(moveDirection.normalized * trueSpeed * Time.deltaTime);
-
-            if (moveDirection != Vector3.zero)
-            {
-                transform.forward = moveDirection;
-            }
-
             if(sprinting == true)
             {
-                anim.SetFloat("speed", 2);
-            }
-            else
+                anim.SetFloat("Speed", 2);
+            }else
             {
-                anim.SetFloat("speed", 1);
+                anim.SetFloat("Speed", 1);
             }
-
         }
         else
         {
-            anim.SetFloat("speed", 0);
+            anim.SetFloat("Speed", 0);
         }
-        //jumping
-        if(Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        if(Input.GetButtonDown("Jump") && isGrounded) 
         {
-            //Debug.Log("JUMP"); 
-            velocity.y += Mathf.Sqrt((JumpHeight * 10) * -2f * gravity);
+            velocity.y = Mathf.Sqrt((jumpHeight * 10) * -2f * gravity);
         }
 
         if(velocity.y > -20)
