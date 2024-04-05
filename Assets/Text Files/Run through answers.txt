@@ -1,0 +1,404 @@
+Scene 1
+
+==========================================================================================
+
+Gate 1
+Dino 1
+Baryonyx
+•	Era: Early Cretaceous
+•	Diet: Piscivore(Fish)/Carnivore
+•	Size: Medium to large; around 7.6 meters (25 feet) in length
+•	Habitat: 
+o	Europe
+o	Semi-aquatic
+o	Lakes
+o	Rivers
+o	Coastal Regions
+•	Walking Style: Bipedal (2 legs)
+•	Physical Features/Notable Characteristics:
+o	Long, narrow snout
+o	Conical teeth
+o	Claws adapted for catching fish
+o	Possibly had a crest on its head.
+•	Movie or Media Appearances:
+o	Featured in “Jurassic World: Fallen Kingdom.”
+o	Featured in “Ark: Survival Evolved”
+o	Various Documentaries
+•	Popular Misconceptions: There are fewer misconceptions about Baryonyx due to limited media exposure compared to other dinosaurs.
+
+Dino 2
+Stegosaurus
+•	Era: Late Jurassic
+•	Diet: Herbivore
+•	Size: Large; up to 9 meters (30 feet) in length
+•	Habitat: 
+o	North America
+o	Europe
+o	Semi-arid environments
+o	Forested regions
+•	Walking Style: Quadrupedal (4 legs)
+•	Physical Features/Notable Characteristics:
+o	Double row of plates along its back
+o	Spiked tail
+o	Relatively small head.
+•	Movie or Media Appearances: 
+o	Featured in "Jurassic Park" franchise
+o	Featured in “Ark: Survival Evolved”
+o	Various documentaries.
+•	Popular Misconceptions: Often depicted with its tail held high, though recent research suggests it was more likely held horizontally.
+
+Dino 3
+Oviraptor
+•	Era: Late Cretaceous
+•	Diet: Likely omnivore
+•	Size: Medium; around 1.6 meters (5.2 feet) in length
+•	Habitat: 
+o	Asia
+o	Semi-arid environments
+o	Forested regions
+•	Walking Style: Bipedal (2 legs)
+•	Physical Features/Notable Characteristics:
+o	Long legs
+o	Toothless beak
+o	Relatively small body.
+•	Movie or Media Appearances: 
+o	Various documentaries
+o	Featured in “Ark: Survival Evolved”
+•	Popular Misconceptions: Initially thought to be an egg thief due to an early specimen found near a nest, but likely was just protecting its own nest.
+
+Correct Answer: Baryonyx
+
+==========================================================================================
+
+Gate 2
+Dino 1
+Carnotaurus
+•	Era: Late Cretaceous
+•	Diet: Carnivore
+•	Size: Medium; around 9 meters (30 feet) in length
+•	Habitat: 
+o	South America
+o	Open woodlands
+o	Savannas
+•	Walking Style: Bipedal (2 legs)
+•	Physical Features/Notable Characteristics: 
+o	Deep skull
+o	Horns above the eyes
+o	Small forelimbs
+o	Reduced fingers
+o	Thick neck and body.
+•	Movie or Media Appearances: 
+o	Featured in "Disney's Dinosaur"
+o	Featured in “Jurassic World: Fallen Kingdom”
+o	Featured in “Ark: Survival Evolved”
+o	Various documentaries.
+•	Popular Misconceptions: Often portrayed as faster than it likely was due to its appearance in "Disney's Dinosaur".
+
+Dino 2
+Dilophosaurus
+•	Era: Early Jurassic
+•	Diet: Carnivore
+•	Size: Medium; around 6 meters (20 feet) in length
+•	Habitat: 
+o	North America
+o	Forested Floodplains
+o	Tropical Environments
+•	Walking Style: Bipedal (2 legs)
+•	Physical Features/Notable Characteristics:
+o	Two crests on its head
+o	Long neck
+o	Sharp teeth
+o	Relatively lightly built.
+•	Movie or Media Appearances: 
+o	Notably featured in "Jurassic Park"
+o	Featured in “Ark: Survival Evolved”
+•	Popular Misconceptions: 
+o	Often portrayed as spitting venom, which is not supported by scientific evidence.
+o	Far larger than popular media depictions
+
+Dino 3
+Stegosaurus
+•	Era: Late Jurassic
+•	Diet: Herbivore
+•	Size: Large; up to 9 meters (30 feet) in length
+•	Habitat: 
+o	North America
+o	Europe
+o	Semi-arid environments
+o	Forested regions
+•	Walking Style: Quadrupedal (4 legs)
+•	Physical Features/Notable Characteristics:
+o	Double row of plates along its back
+o	Spiked tail
+o	Relatively small head.
+•	Movie or Media Appearances: 
+o	Featured in "Jurassic Park" franchise
+o	Featured in “Ark: Survival Evolved”
+o	Various documentaries.
+•	Popular Misconceptions: Often depicted with its tail held high, though recent research suggests it was more likely held horizontally.
+
+Correct Answer: Stegosaurus
+
+==========================================================================================
+
+Gate 3
+Dino 1
+Dimetrodon
+•	Era: Permian (not a dinosaur, but a synapsid)
+•	Diet: Carnivore
+•	Size: Medium to large; up to 4.6 meters (15 feet) in length
+•	Habitat: 
+o	North America
+o	Swamp environments
+o	Coastal regions
+•	Walking Style: Quadrupedal (4 legs)
+•	Physical Features/Notable Characteristics: 
+o	Large sail on its back
+o	Elongated skull
+o	Large teeth
+•	Movie or Media Appearances: 
+o	Frequently appears in media about prehistoric creatures, despite not being a dinosaur.
+o	Featured in “Jurassic World: Dominion”
+o	Featured in “Ark: Survival Evolved”
+•	Popular Misconceptions: Often mistakenly included in dinosaur media due to its prehistoric appearance.
+
+Dino 2
+Tyrannosaurus Rex (T-rex)
+•	Era: Late Cretaceous
+•	Diet: Carnivore
+•	Size: Large; up to 12.3 meters (40 feet) in length
+•	Habitat: 
+o	North America
+o	Forested river valleys
+o	Open Floodplains
+•	Walking Style: Bipedal (2 legs)
+•	Physical Features/Notable Characteristics:
+o	Enormous head
+o	Powerful jaws
+o	Small forelimbs
+o	Long tail
+o	Serrated teeth.
+•	Movie or Media Appearances: 
+o	Featured prominently in "Jurassic Park" franchise
+o	Featured in “Ark: Survival Evolved”
+o	Documentaries
+o	Various other media
+•	Popular Misconceptions: Often depicted as a fast runner; recent research suggests it might not have been as fast as previously thought.
+
+Dino 3
+Pteranodon
+•	Era: Late Cretaceous
+•	Diet: Piscivore
+•	Size: Large; wingspan up to 7 meters (23 feet)
+•	Habitat:
+o	North America
+o	Coastlines
+o	In-land Waterways
+•	Walking Style: Flight (but could walk on all fours on the ground)
+•	Physical Features/Notable Characteristics:
+o	Large cranial crest
+o	Toothless beak
+o	Elongated wing fingers.
+•	Movie or Media Appearances:
+o	Featured prominently in “Jurassic Park III”
+o	Featured in “Ark: Survival Evolved”
+o	Featured in various media involving prehistoric flying creatures.
+•	Popular Misconceptions: Often depicted with a skull crest in front of its eyes, which is not supported by evidence.
+
+Correct Answer: Pteranodon
+
+==========================================================================================
+
+Gate 4
+Dino 1
+Lystrosaurus
+•	Era: Early Triassic
+•	Diet: Herbivore
+•	Size: Small to medium; up to 2.5 meters (8.2 feet) in length
+•	Habitat: 
+o	Various continents (widespread)
+o	Coastal Regions
+o	Plains
+•	Walking Style: Quadrupedal (4 legs)
+•	Physical Features/Notable Characteristics:
+o	Stocky body
+o	Short legs
+o	Beak-like mouth.
+•	Movie or Media Appearances: 
+o	Often included in documentaries about early Mesozoic life.
+o	Featured in “Ark: Survival Evolved”
+•	Popular Misconceptions: Sometimes mistakenly depicted as a dinosaur due to its appearance, but it's actually a distant relative of mammals.
+
+Dino 2
+Spinosaurus
+•	Era: Late Cretaceous
+•	Diet: Piscivore(Fish)/Carnivore
+•	Size: Very large; up to 15 meters (49 feet) in length
+•	Habitat: 
+o	Northern Africa
+o	Semi-aquatic
+o	River Deltas
+o	Mangrove Swamps
+•	Walking Style: Mixed Bipedal (2 legs) and quadrupedal (4 legs) when on land
+•	Physical Features/Notable Characteristics:
+o	Distinctive sail on its back
+o	Elongated snout filled
+o	Conical teeth
+o	Adaptations for aquatic life.
+•	Movie or Media Appearances: 
+o	Featured prominently in "Jurassic Park III"
+o	Featured in “Ark: Survival Evolved”
+•	Popular Misconceptions: Initially thought to be a primarily terrestrial dinosaur, recent discoveries suggest it spent a significant amount of time in water.
+
+Dino 3
+Velociraptor
+•	Era: Late Cretaceous
+•	Diet: Carnivore
+•	Size: Small to medium; around 1.8 meters (6 feet) in length
+•	Habitat: Asia
+•	Walking Style: Bipedal (2 legs)
+•	Physical Features/Notable Characteristics:
+o	Sickle shaped retractable claws on its feet
+o	Long tail
+o	Relatively large brain for a dinosaur of its size.
+•	Movie or Media Appearances:
+o	Featured prominently in "Jurassic Park" franchise
+o	Featured in “Ark: Survival Evolved”
+o	Various documentaries.
+•	Popular Misconceptions: 
+o	Often depicted as larger than it was in reality
+o	Inaccurately portrayed with pronated wrists.
+
+Correct Answer: Spinosaurus
+
+==========================================================================================
+
+Gate 5
+Dino 1
+Plesiosaurus
+•	Era: Late Jurassic to Late Cretaceous
+•	Diet: Piscivore(Fish)
+•	Size: Large; up to 15 meters (49 feet) in length
+•	Habitat:
+o	Oceans worldwide
+o	Coastal Regions
+•	Walking Style: Swimming
+•	Physical Features/Notable Characteristics:
+o	Long neck
+o	Small head
+o	Four large flippers
+o	Streamlined body.
+•	Movie or Media Appearances: 
+o	Various documentaries about prehistoric marine life
+•	Popular Misconceptions: 
+o	Often depicted with its neck sticking straight out of the water, though recent studies suggest it likely held its neck in a more horizontal position while swimming.
+o	Thought to be the basis for the Lock Ness Monster Myth, Although no proof has ever been found, some believe there to be a living specimen of the dinosaur residing in the waters. 
+
+Dino 2
+Triceratops
+•	Era: Late Cretaceous
+•	Diet: Herbivore
+•	Size: Large; up to 9 meters (30 feet) in length
+•	Habitat: 
+o	North America
+o	Open Plains
+o	Forested River Valleys
+•	Walking Style: Quadrupedal (4 legs)
+•	Physical Features/Notable Characteristics:
+o	Three facial horns
+o	Frill on the back of the skull
+o	Robust body.
+•	Movie or Media Appearances: 
+o	Featured in "Jurassic Park" franchise
+o	Featured in “Ark: Survival Evolved”
+o	Various documentaries
+•	Popular Misconceptions: Occasionally portrayed as more aggressive than it likely was, particularly in older media.
+
+Dino 3
+Gallimimus
+•	Era: Late Cretaceous
+•	Diet: Omnivore (likely)
+•	Size: Medium; up to 6 meters (20 feet) in length
+•	Habitat: 
+o	Mongolia
+o	Semi-arid environments
+o	Open Plains
+•	Walking Style: Bipedal (2 legs)
+•	Physical Features/Notable Characteristics:
+o	Long legs
+o	Slender build
+o	Possibly had feathers.
+•	Movie or Media Appearances:
+o	Featured prominently in "Jurassic Park"
+o	Featured in “Ark: Survival Evolved”
+o	Various Documentaries
+•	Popular Misconceptions: Often depicted as a pure herbivore, though recent studies suggest it might have been omnivorous.
+
+Correct Answer: Triceratops
+
+==========================================================================================
+
+Gate 6
+Dino 1
+Ankylosaurus
+•	Era: Late Cretaceous
+•	Diet: Herbivore
+•	Size: Large; up to 6.25 meters (20.5 feet) in length
+•	Habitat: 
+o	North America
+o	Forested Floodplains
+o	Coastal Regions
+•	Walking Style: Quadrupedal (4 legs)
+•	Physical Features/Notable Characteristics:
+o	Armored body
+o	Club-like tail
+o	Low-slung profile
+•	Movie or Media Appearances: 
+o	Featured in "Jurassic Park" franchise
+o	Featured in “Ark: Survival Evolved”
+o	Various documentaries
+•	Popular Misconceptions: Often depicted as slow-moving, recent studies suggest it might have been more agile than previously thought.
+
+Dino 2
+Compsognathus
+•	Era: Late Jurassic
+•	Diet: Carnivore
+•	Size: Small; around 1 meter (3.3 feet) in length
+•	Habitat: 
+o	Europe
+o	Coastal Regions
+o	Forest Areas
+•	Walking Style: Bipedal (2 legs)
+•	Physical Features/Notable Characteristics:
+o	Small size
+o	Long legs
+o	Slender body
+o	Sharp teeth.
+•	Movie or Media Appearances: 
+o	Featured in "The Lost World: Jurassic Park"
+o	Featured in “Ark: Survival Evolved”
+o	Documentaries
+•	Popular Misconceptions: Often depicted as different in size than it actually was, sometimes portrayed as a threat to humans.
+
+Dino 3
+Brachiosaurus
+•	Era: Late Jurassic
+•	Diet: Herbivore
+•	Size: Very large; up to 25 meters (82 feet) in length
+•	Habitat:
+o	North America
+o	Africa
+o	Forested Areas
+o	Open Woodlands
+•	Walking Style: Quadrupedal (4 legs)
+•	Physical Features/Notable Characteristics:
+o	Long neck
+o	Long front legs
+o	Relatively small head
+o	Large body.
+•	Movie or Media Appearances: 
+o	Featured in "Jurassic Park" franchise
+o	Various documentaries.
+•	Popular Misconceptions: Often depicted with its neck held upright, though recent research suggests it was more likely held horizontally.
+
+Correct Answer: Ankylosaurus
