@@ -6,6 +6,9 @@ using UnityEngine.SceneManagement;
 
 public class GameOver : MonoBehaviour
 {
+    public static bool GameIsOver = false;
+    public GameObject GameOverUI;
+
     public GameObject imageCanvas;
     public GameObject imageCanvas2;
     public  Sprite Dinoimage;
@@ -16,8 +19,12 @@ public class GameOver : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            
-            ShowImage();   
+                ShowImage();
+                GameOverUI.SetActive(true);
+                Time.timeScale = 0f;
+                GameIsOver = true;
+                Cursor.visible = true;
+                Cursor.lockState = CursorLockMode.None;
         }
     }
 
@@ -50,5 +57,15 @@ public class GameOver : MonoBehaviour
                 Debug.LogError("No Image");
             }
         }
+    }
+
+    public void RestartButton()
+    {
+        SceneManager.LoadScene("GamePlayScene");
+    }
+
+    public void ExitButton()
+    {
+        SceneManager.LoadScene("StartScreen");
     }
 }
