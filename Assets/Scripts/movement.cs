@@ -25,6 +25,7 @@ public class movement : MonoBehaviour
     void Start()
     {
         trueSpeed = walkSpeed;
+        isGrounded = true;
         characterController = GetComponent<CharacterController>();
         anim = GetComponentInChildren<Animator>();
         Cursor.lockState = CursorLockMode.Locked;
@@ -35,8 +36,10 @@ public class movement : MonoBehaviour
     {
         isGrounded = Physics.CheckSphere(transform.position, .1f, 1);
         anim.SetBool("isGrounded", isGrounded);
+        //Gizmos.color = Color.yellow;
+        //Gizmos.DrawSphere(transform.position, .1f);
 
-        if(isGrounded && velocity.y < 0)
+        if (isGrounded && velocity.y < 0)
         {
             velocity.y = -1;
         }
