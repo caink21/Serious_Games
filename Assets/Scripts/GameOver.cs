@@ -27,10 +27,10 @@ public class GameOver : MonoBehaviour
         TextMeshWrong.text = GameOverInfoWrong;
     }
 
-    public void ChangeText(string Information)
+    public void ChangeText(string Information_right, string information_wrong )
     {
-        TextMeshRight.text = Information;
-        TextMeshWrong.text = Information;
+        TextMeshRight.text = Information_right;
+        TextMeshWrong.text = information_wrong;
     }
 
     private void OnTriggerEnter(Collider other)
@@ -38,6 +38,7 @@ public class GameOver : MonoBehaviour
         if (other.CompareTag("Player"))
         {
                 ShowImage();
+                ChangeText(GameOverInfoRight, GameOverInfoWrong);
                 GameOverUI.SetActive(true);
                 Time.timeScale = 0f;
                 GameIsOver = true;

@@ -697,10 +697,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GameOverUI: {fileID: 269429094}
-  TextMeshRight: {fileID: 0}
-  TextMeshWrong: {fileID: 0}
-  GameOverInfoRight: 
-  GameOverInfoWrong: 
+  TextMeshRight: {fileID: 1465471566}
+  TextMeshWrong: {fileID: 1359666551}
+  GameOverInfoRight: 'fuck '
+  GameOverInfoWrong: you
   imageCanvas: {fileID: 582548185}
   imageCanvas2: {fileID: 765452189}
   Dinoimage: {fileID: 21300000, guid: 35687a24d22adb84c9e555e839154056, type: 3}
@@ -1205,10 +1205,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GameOverUI: {fileID: 269429094}
-  TextMeshRight: {fileID: 0}
-  TextMeshWrong: {fileID: 0}
-  GameOverInfoRight: 
-  GameOverInfoWrong: 
+  TextMeshRight: {fileID: 1465471566}
+  TextMeshWrong: {fileID: 1359666551}
+  GameOverInfoRight: why
+  GameOverInfoWrong: god
   imageCanvas: {fileID: 582548185}
   imageCanvas2: {fileID: 765452189}
   Dinoimage: {fileID: 21300000, guid: 35687a24d22adb84c9e555e839154056, type: 3}
@@ -1445,6 +1445,28 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7378725015058318850, guid: 224b760c80e1f8a4eabc013faf73dae0, type: 3}
   m_PrefabInstance: {fileID: 1859118548001586329}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1359666551 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8943487133872260371, guid: 224b760c80e1f8a4eabc013faf73dae0, type: 3}
+  m_PrefabInstance: {fileID: 1859118548001586329}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1465471566 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7020954579317756973, guid: 224b760c80e1f8a4eabc013faf73dae0, type: 3}
+  m_PrefabInstance: {fileID: 1859118548001586329}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &1695504880 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4318690961653869788, guid: 224b760c80e1f8a4eabc013faf73dae0, type: 3}
@@ -1700,6 +1722,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 79015110954992976, guid: 0c471a7629eb54640bc37f4e3a1e2925, type: 3}
+      propertyPath: m_XAxis.m_InvertInput
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 304169239698102737, guid: 0c471a7629eb54640bc37f4e3a1e2925, type: 3}
       propertyPath: m_Name
       value: Ellen (1)
@@ -1722,15 +1748,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3394447040772628531, guid: 0c471a7629eb54640bc37f4e3a1e2925, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.11580958
+      value: 0.115809605
       objectReference: {fileID: 0}
     - target: {fileID: 3394447040772628531, guid: 0c471a7629eb54640bc37f4e3a1e2925, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.010696039
+      value: -0.010696074
       objectReference: {fileID: 0}
     - target: {fileID: 3394447040772628531, guid: 0c471a7629eb54640bc37f4e3a1e2925, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0012471682
+      value: 0.0012471726
       objectReference: {fileID: 0}
     - target: {fileID: 3469507360101421983, guid: 0c471a7629eb54640bc37f4e3a1e2925, type: 3}
       propertyPath: m_LocalPosition.x
