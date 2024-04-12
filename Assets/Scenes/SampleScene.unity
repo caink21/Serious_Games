@@ -697,6 +697,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GameOverUI: {fileID: 269429094}
+  TextMeshRight: {fileID: 0}
+  TextMeshWrong: {fileID: 0}
+  GameOverInfoRight: 
+  GameOverInfoWrong: 
   imageCanvas: {fileID: 582548185}
   imageCanvas2: {fileID: 765452189}
   Dinoimage: {fileID: 21300000, guid: 35687a24d22adb84c9e555e839154056, type: 3}
@@ -1201,6 +1205,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GameOverUI: {fileID: 269429094}
+  TextMeshRight: {fileID: 0}
+  TextMeshWrong: {fileID: 0}
+  GameOverInfoRight: 
+  GameOverInfoWrong: 
   imageCanvas: {fileID: 582548185}
   imageCanvas2: {fileID: 765452189}
   Dinoimage: {fileID: 21300000, guid: 35687a24d22adb84c9e555e839154056, type: 3}
@@ -1291,7 +1299,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.0154495165, y: -0.17656332, z: 0.019139549, w: 0.98398185}
+  m_LocalRotation: {x: -0.015449509, y: -0.17656326, z: 0.019139538, w: 0.98398197}
   m_LocalPosition: {x: 3.0887785, y: -1.835978, z: -9.081081}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1698,19 +1706,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 674120894292627980, guid: 0c471a7629eb54640bc37f4e3a1e2925, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.01073432
+      value: -0.010734284
       objectReference: {fileID: 0}
     - target: {fileID: 674120894292627980, guid: 0c471a7629eb54640bc37f4e3a1e2925, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.00085781515
+      value: 0.0008578123
       objectReference: {fileID: 0}
     - target: {fileID: 2587544832092245183, guid: 0c471a7629eb54640bc37f4e3a1e2925, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.010716977
+      value: -0.010716968
       objectReference: {fileID: 0}
     - target: {fileID: 2587544832092245183, guid: 0c471a7629eb54640bc37f4e3a1e2925, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0010524088
+      value: 0.0010524081
       objectReference: {fileID: 0}
     - target: {fileID: 3394447040772628531, guid: 0c471a7629eb54640bc37f4e3a1e2925, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1718,11 +1726,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3394447040772628531, guid: 0c471a7629eb54640bc37f4e3a1e2925, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.010696078
+      value: -0.010696039
       objectReference: {fileID: 0}
     - target: {fileID: 3394447040772628531, guid: 0c471a7629eb54640bc37f4e3a1e2925, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0012471726
+      value: 0.0012471682
       objectReference: {fileID: 0}
     - target: {fileID: 3469507360101421983, guid: 0c471a7629eb54640bc37f4e3a1e2925, type: 3}
       propertyPath: m_LocalPosition.x

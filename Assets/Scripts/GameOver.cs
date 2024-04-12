@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
@@ -9,11 +10,28 @@ public class GameOver : MonoBehaviour
     public static bool GameIsOver = false;
     public GameObject GameOverUI;
 
+    public TextMeshProUGUI TextMeshRight;
+    public TextMeshProUGUI TextMeshWrong;
+
+    public string GameOverInfoRight;
+    public string GameOverInfoWrong;
+
     public GameObject imageCanvas;
     public GameObject imageCanvas2;
     public  Sprite Dinoimage;
     public  Sprite Dinoimage2;
-  
+
+    void Start()
+    {
+        TextMeshRight.text = GameOverInfoRight;
+        TextMeshWrong.text = GameOverInfoWrong;
+    }
+
+    public void ChangeText(string Information)
+    {
+        TextMeshRight.text = Information;
+        TextMeshWrong.text = Information;
+    }
 
     private void OnTriggerEnter(Collider other)
     {
