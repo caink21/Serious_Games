@@ -14,6 +14,7 @@ public class StartScreenManager : MonoBehaviour
 
     private void Start()
     {
+        Time.timeScale = 1f;
         audioSource = GetComponent<AudioSource>();
         animator = dinosaur.GetComponent<Animator>();
     }
