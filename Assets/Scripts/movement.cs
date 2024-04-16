@@ -24,6 +24,7 @@ public class movement : MonoBehaviour
 
     void Start()
     {
+        Time.timeScale = 1f;
         trueSpeed = walkSpeed;
         isGrounded = true;
         characterController = GetComponent<CharacterController>();
