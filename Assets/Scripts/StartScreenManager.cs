@@ -25,7 +25,7 @@ public class StartScreenManager : MonoBehaviour
         roarClip = roars[UnityEngine.Random.Range(0, roars.Length)];
         audioSource.clip = roarClip;
         audioSource.Play();
-        Invoke("LoadScene", 4f);
+        Invoke("LoadScene", 6f);
     }
 
     private void LoadScene()
