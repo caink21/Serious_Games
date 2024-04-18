@@ -6,6 +6,7 @@ using UnityEngine;
 public class Clues : MonoBehaviour
 {
     public GameObject ClueText;
+    public AudioClip ClueClip;
 
     void Start()
     {
@@ -16,6 +17,7 @@ public class Clues : MonoBehaviour
     {
         if(other.CompareTag("Player"))
         {
+            AudioSource.PlayClipAtPoint(ClueClip, transform.position);
             ClueText.SetActive(true);
         }
     }

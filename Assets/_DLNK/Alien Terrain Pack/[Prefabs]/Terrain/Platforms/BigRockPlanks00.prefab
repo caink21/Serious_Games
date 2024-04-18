@@ -23,6 +23,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 100178}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -33,7 +34,6 @@ Transform:
   - {fileID: 423486}
   - {fileID: 427720}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &135106
 GameObject:
@@ -60,13 +60,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 135106}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.11427067, y: 0.09849391, z: -0.98275447, w: 0.10693389}
   m_LocalPosition: {x: 2.1545172, y: -0.028660595, z: 2.7636185}
   m_LocalScale: {x: 2.880931, y: 2.8809302, z: 2.8809304}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 415314}
-  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &3371642
 MeshFilter:
@@ -103,7 +103,7 @@ MeshRenderer:
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
+  m_ScaleInLightmap: 0.1
   m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
@@ -143,13 +143,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 148882}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.16054936, y: -0.20247975, z: 0.2508387, w: 0.93290186}
   m_LocalPosition: {x: -13.512739, y: 15.82007, z: 27.204346}
   m_LocalScale: {x: 3.9108076, y: 3.9108067, z: 3.9108067}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 415314}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &3386858
 MeshFilter:
@@ -186,7 +186,7 @@ MeshRenderer:
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
+  m_ScaleInLightmap: 0.1
   m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
@@ -226,13 +226,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 156456}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.118926, y: 0.14672269, z: -0.97737163, w: 0.0952567}
   m_LocalPosition: {x: 18.96, y: -0.86269, z: -10.612}
   m_LocalScale: {x: 1.6657994, y: 1.6657991, z: 2.5879397}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 415314}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &3301960
 MeshFilter:
@@ -269,7 +269,7 @@ MeshRenderer:
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
+  m_ScaleInLightmap: 0.1
   m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
@@ -310,13 +310,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 171286}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.34061936, y: -0.116185926, z: 0.5654257, w: -0.7421409}
   m_LocalPosition: {x: 3.1, y: 19.1, z: 57.3}
   m_LocalScale: {x: 5.299286, y: 2.785266, z: 3.7221656}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 415314}
-  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &3322148
 MeshFilter:
@@ -353,7 +353,7 @@ MeshRenderer:
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
+  m_ScaleInLightmap: 0.1
   m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
@@ -376,9 +376,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 171286}
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 3eab4a6186b6fbf43bb1c67c92d3ccc1, type: 3}

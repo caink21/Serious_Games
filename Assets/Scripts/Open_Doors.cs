@@ -12,8 +12,12 @@ public class Open_Doors : MonoBehaviour
     [SerializeField] AudioClip dinoClip;
     [SerializeField] AudioClip doorClip;
 
-    private bool triggered = false;
+    AudioSource audioSource;
 
+    private void Start()
+    {
+        audioSource = GameObject.Find("AudioSource").GetComponent<AudioSource>();
+    }
 
 
     private void OnTriggerEnter(Collider other)
@@ -26,7 +30,10 @@ public class Open_Doors : MonoBehaviour
                 // Play the door opening animation
                 doorAnim.SetBool("IsOpen", true);
                 isOpened = true;
-                StartCoroutine(EnableObjectAfterDelay());
+                if (objectToEnable != null)
+                {
+                    StartCoroutine(EnableObjectAfterDelay());
+                }
             }
     }
 
@@ -42,17 +49,11 @@ public class Open_Doors : MonoBehaviour
 
     IEnumerator EnableObjectAfterDelay()
     {
-        if (objectToEnable == null)
-        {
-            yield return null;
-        }
-        else
-        {
-            AudioSource.PlayClipAtPoint(dinoClip, transform.position);            
-            // Wait for specified delay
-            yield return new WaitForSeconds(delayInSeconds);
-            // Enable the object
-            objectToEnable.SetActive(true);
-        }
+        audioSource.clip = dinoClip;
+        audioSource.Play();
+        // Wait for specified delay
+        yield return new WaitForSeconds(delayInSeconds);
+        // Enable the object
+        objectToEnable.SetActive(true); 
     }
 }

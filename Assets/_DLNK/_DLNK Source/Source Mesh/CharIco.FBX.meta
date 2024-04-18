@@ -1,117 +1,259 @@
 fileFormatVersion: 2
 guid: 5c01c791ea6f64f47975beb04337fd2c
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: //RootNode
-    100002: Arm
-    100004: Arm001
-    100006: Body
-    100008: Details
-    100010: Eye
-    100012: Hand002
-    100014: Hand01
-    100016: Palm
-    100018: Palm001
-    100020: Shoulder
-    100022: Shoulder001
-    100024: Fire
-    400000: //RootNode
-    400002: Arm
-    400004: Arm001
-    400006: Body
-    400008: Details
-    400010: Eye
-    400012: Hand002
-    400014: Hand01
-    400016: Palm
-    400018: Palm001
-    400020: Shoulder
-    400022: Shoulder001
-    400024: Fire
-    2100000: 'Material #25'
-    2100002: 'Material #27'
-    2100004: 'Material #28'
-    2100006: 'Material #26'
-    2100008: 'Material #41'
-    2100010: 'Material #88'
-    2100012: 'Material #29'
-    2300000: Arm
-    2300002: Arm001
-    2300004: Body
-    2300006: Details
-    2300008: Eye
-    2300010: Hand002
-    2300012: Hand01
-    2300014: Palm
-    2300016: Palm001
-    2300018: Shoulder
-    2300020: Shoulder001
-    2300022: Fire
-    3300000: Arm
-    3300002: Arm001
-    3300004: Body
-    3300006: Details
-    3300008: Eye
-    3300010: Hand002
-    3300012: Hand01
-    3300014: Palm
-    3300016: Palm001
-    3300018: Shoulder
-    3300020: Shoulder001
-    3300022: Fire
-    4300000: Body
-    4300002: Shoulder001
-    4300004: Arm001
-    4300006: Palm001
-    4300008: Hand002
-    4300010: Shoulder
-    4300012: Arm
-    4300014: Palm
-    4300016: Hand01
-    4300018: Eye
-    4300020: Details
-    4300022: Fire
-    7400000: Idle
-    11100000: //RootNode
+  serializedVersion: 22200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: Arm
+  - first:
+      1: 100004
+    second: Arm001
+  - first:
+      1: 100006
+    second: Body
+  - first:
+      1: 100008
+    second: Details
+  - first:
+      1: 100010
+    second: Eye
+  - first:
+      1: 100012
+    second: Hand002
+  - first:
+      1: 100014
+    second: Hand01
+  - first:
+      1: 100016
+    second: Palm
+  - first:
+      1: 100018
+    second: Palm001
+  - first:
+      1: 100020
+    second: Shoulder
+  - first:
+      1: 100022
+    second: Shoulder001
+  - first:
+      1: 100024
+    second: Fire
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: Arm
+  - first:
+      4: 400004
+    second: Arm001
+  - first:
+      4: 400006
+    second: Body
+  - first:
+      4: 400008
+    second: Details
+  - first:
+      4: 400010
+    second: Eye
+  - first:
+      4: 400012
+    second: Hand002
+  - first:
+      4: 400014
+    second: Hand01
+  - first:
+      4: 400016
+    second: Palm
+  - first:
+      4: 400018
+    second: Palm001
+  - first:
+      4: 400020
+    second: Shoulder
+  - first:
+      4: 400022
+    second: Shoulder001
+  - first:
+      4: 400024
+    second: Fire
+  - first:
+      21: 2100000
+    second: Material #25
+  - first:
+      21: 2100002
+    second: Material #27
+  - first:
+      21: 2100004
+    second: Material #28
+  - first:
+      21: 2100006
+    second: Material #26
+  - first:
+      21: 2100008
+    second: Material #41
+  - first:
+      21: 2100010
+    second: Material #88
+  - first:
+      21: 2100012
+    second: Material #29
+  - first:
+      23: 2300000
+    second: Arm
+  - first:
+      23: 2300002
+    second: Arm001
+  - first:
+      23: 2300004
+    second: Body
+  - first:
+      23: 2300006
+    second: Details
+  - first:
+      23: 2300008
+    second: Eye
+  - first:
+      23: 2300010
+    second: Hand002
+  - first:
+      23: 2300012
+    second: Hand01
+  - first:
+      23: 2300014
+    second: Palm
+  - first:
+      23: 2300016
+    second: Palm001
+  - first:
+      23: 2300018
+    second: Shoulder
+  - first:
+      23: 2300020
+    second: Shoulder001
+  - first:
+      23: 2300022
+    second: Fire
+  - first:
+      33: 3300000
+    second: Arm
+  - first:
+      33: 3300002
+    second: Arm001
+  - first:
+      33: 3300004
+    second: Body
+  - first:
+      33: 3300006
+    second: Details
+  - first:
+      33: 3300008
+    second: Eye
+  - first:
+      33: 3300010
+    second: Hand002
+  - first:
+      33: 3300012
+    second: Hand01
+  - first:
+      33: 3300014
+    second: Palm
+  - first:
+      33: 3300016
+    second: Palm001
+  - first:
+      33: 3300018
+    second: Shoulder
+  - first:
+      33: 3300020
+    second: Shoulder001
+  - first:
+      33: 3300022
+    second: Fire
+  - first:
+      43: 4300000
+    second: Body
+  - first:
+      43: 4300002
+    second: Shoulder001
+  - first:
+      43: 4300004
+    second: Arm001
+  - first:
+      43: 4300006
+    second: Palm001
+  - first:
+      43: 4300008
+    second: Hand002
+  - first:
+      43: 4300010
+    second: Shoulder
+  - first:
+      43: 4300012
+    second: Arm
+  - first:
+      43: 4300014
+    second: Palm
+  - first:
+      43: 4300016
+    second: Hand01
+  - first:
+      43: 4300018
+    second: Eye
+  - first:
+      43: 4300020
+    second: Details
+  - first:
+      43: 4300022
+    second: Fire
+  - first:
+      74: 7400000
+    second: Idle
+  - first:
+      111: 11100000
+    second: //RootNode
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: 'Material #25'
+      name: Material #25
     second: {fileID: 2100000, guid: 97ab926cf3a6f234fa97e22fd6a57a92, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: 'Material #26'
+      name: Material #26
     second: {fileID: 2100000, guid: 2876afc9dc23b20469c7846379d63b24, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: 'Material #27'
+      name: Material #27
     second: {fileID: 2100000, guid: dddae3552c60d0a41b61dc7fad5a0db1, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: 'Material #28'
+      name: Material #28
     second: {fileID: 2100000, guid: 86238c91196d60a49835c01750545b1c, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: 'Material #29'
+      name: Material #29
     second: {fileID: 2100000, guid: 7fd6d8234d5b8da419d8cb2f4312274c, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: 'Material #41'
+      name: Material #41
     second: {fileID: 2100000, guid: 500148fa945f2984db0b5e986752eb40, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: 'Material #88'
+      name: Material #88
     second: {fileID: 2100000, guid: d724443a931e183469cec779a8ca650e, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -120,6 +262,7 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
     motionNodeName: 
     rigImportErrors: 
     rigImportWarnings: 
@@ -140,6 +283,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Idle
       takeName: Take 001
+      internalID: 0
       firstFrame: 0
       lastFrame: 100
       wrapMode: 2
@@ -172,25 +316,36 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
-    secondaryUVAreaDistortion: 15.000001
+    secondaryUVAreaDistortion: 15
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 10
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -199,10 +354,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -212,13 +367,19 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 0.02
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 1
   humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
